@@ -17,14 +17,20 @@ $ source setup_env
 $ git apply cse_server.path
 ```
 
-##### 3. Compile zsim
+##### 3. Unzip benchmarks files
+
+```
+zip -F benchmarks.zip --out single-benchmark.zip && unzip single-benchmark.zip
+```
+
+##### 4. Compile zsim
 
 ```
 $ cd zsim
 $ scons -j4
 ```
 
-##### 3 Launch a test to run
+##### 5. Launch a test to run
 
 ```
 ./build/opt/zsim tests/simple.cfg

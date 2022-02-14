@@ -3,24 +3,24 @@ Computer Architecture Simulation Infrastructure for CSCE 614 Computer Architectu
 
 
 
-### 1. Environemnt setup
+##### 1. Apply a path file for cse server
+
+```
+$ git apply cse_server.patch
+```
+
+##### 2. Unzip benchmarks files
+
+```
+zip -F benchmarks.zip --out single-benchmark.zip && unzip single-benchmark.zip
+```
+
+### 3. Environemnt setup
 
 Everytime you want to build or run zsim, you need to setup the environment variables first.
 
 ```
 $ source setup_env
-```
-
-##### 2. Apply a path file for cse server
-
-```
-$ git apply cse_server.path
-```
-
-##### 3. Unzip benchmarks files
-
-```
-zip -F benchmarks.zip --out single-benchmark.zip && unzip single-benchmark.zip
 ```
 
 ##### 4. Compile zsim

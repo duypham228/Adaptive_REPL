@@ -11,7 +11,13 @@ Everytime you want to build or run zsim, you need to setup the environment varia
 $ source setup_env
 ```
 
-##### 2. Compile zsim
+##### 2. Apply a path file for cse server
+
+```
+$ git apply cse_server.path
+```
+
+##### 3. Compile zsim
 
 ```
 $ cd zsim

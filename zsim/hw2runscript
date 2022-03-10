@@ -10,5 +10,6 @@ else
     automaton=$2
 
     mkdir -p outputs/hw2/${automaton}/${bench}_8c_simsmall
-    ./build/opt/zsim configs/hw2/${automaton}/${bench}_8c_simsmall.cfg
+    echo "./build/opt/zsim configs/hw2/${automaton}/${bench}_8c_simsmall.cfg > outputs/hw2/${automaton}/${bench}_8c_simsmall/${bench}.log 2>&1"
+    ./build/opt/zsim configs/hw2/${automaton}/${bench}_8c_simsmall.cfg > outputs/hw2/${automaton}/${bench}_8c_simsmall/${bench}.log 2>&1
 fi

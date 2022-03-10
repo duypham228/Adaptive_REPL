@@ -1,0 +1,4 @@
+tools/
+benchmarks/
+single-benchmark.zip
+*.pyc

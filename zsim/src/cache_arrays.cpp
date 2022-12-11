@@ -26,6 +26,7 @@
 #include "cache_arrays.h"
 #include "hash.h"
 #include "repl_policies.h"
+#include "cache_state.h"
 
 /* Set-associative array implementation */
 
